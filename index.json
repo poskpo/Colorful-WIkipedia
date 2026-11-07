@@ -1,0 +1,14 @@
+{
+  "themes": [
+    "solarized-light.json",
+    "solarized-dark.json",
+    "nord.json",
+    "dracula.json",
+    "midnight-amoled.json",
+    "sepia-paper.json",
+    "high-contrast.json",
+    "forest.json",
+    "rose-pastel.json",
+    "newsprint.json"
+  ]
+}

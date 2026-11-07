@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Skin Designer</title>
+    <link rel="stylesheet" href="lib/coloris.min.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+    <header class="topbar">
+        <h3>Skin Designer</h3>
+        <label class="switch"><input type="checkbox" id="enabled"> Enabled</label>
+        <button id="openTab" class="ghost" title="Open this panel in a full tab">Open in tab ↗</button>
+    </header>
+
+    <main>
+        <!-- Themes -->
+        <details class="sec" id="themesSec" open>
+            <summary>Themes</summary>
+            <div class="body">
+                <h4>Preset themes</h4>
+                <div id="presetGrid" class="theme-grid"></div>
+
+                <h4>My themes</h4>
+                <div id="myThemes" class="theme-list"></div>
+                <div class="row">
+                    <input type="text" id="saveName" placeholder="Name this theme" maxlength="60">
+                    <button id="saveBtn">Save current</button>
+                </div>
+
+                <h4>Upload a theme (.json)</h4>
+                <div id="dropzone" class="dropzone">
+                    Drop a theme file here
+                    <button id="pickFile" type="button">Choose file…</button>
+                </div>
+                <input type="file" id="fileInput" accept=".json,application/json" hidden>
+                <details class="paste">
+                    <summary>Or paste theme JSON</summary>
+                    <textarea id="pasteBox" rows="6" spellcheck="false" placeholder='{"name": "My theme", "settings": { "pageBg": "#202020" }}'></textarea>
+                    <button id="pasteBtn" type="button">Import pasted JSON</button>
+                </details>
+
+                <h4>Share your theme</h4>
+                <div class="row">
+                    <button id="exportBtn" type="button">Download .json</button>
+                    <button id="copyBtn" type="button">Copy JSON</button>
+                </div>
+                <div id="status" role="status" aria-live="polite"></div>
+            </div>
+        </details>
+
+        <!-- Controls are generated from SCHEMA in default.js -->
+        <div id="sections"></div>
+
+        <button id="resetBtn" type="button" class="danger">Reset all to defaults</button>
+    </main>
+
+    <datalist id="fontList"></datalist>
+
+    <!-- Order matters: libraries and shared code first, popup.js last (and only once) -->
+    <script src="lib/coloris.min.js"></script>
+    <script src="default.js"></script>
+    <script src="popup.js"></script>
+</body>
+
+</html>
