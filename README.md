@@ -9,3 +9,11 @@ To use this just simply download the repository and go to your browsers extensio
 
 ### Other libraries used:
  - Coloris: used for the color pickers when editing custom colors.
+
+
+### Image examples of Themes:
+![mainIndexExample](imageExamples/indexExample.png)
+This is what the editor looks like. (with the loaded themes)
+
+![Dracula Theme](imageExamples/draculaExample.png)
+Dracula theme example
