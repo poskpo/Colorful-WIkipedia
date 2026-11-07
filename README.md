@@ -12,8 +12,36 @@ To use this just simply download the repository and go to your browsers extensio
 
 
 ### Image examples of Themes:
-![mainIndexExample](imageExamples/indexExample.png)
+#### Index example:
+<img src="imageExamples/indexExample.png" width="700" alt="Dracula Theme">\
 This is what the editor looks like. (with the loaded themes)
 
-![Dracula Theme](imageExamples/draculaExample.png)
-Dracula theme example
+#### Dracula theme example:
+<img src="imageExamples/draculaExample.png" width="700" alt="Dracula Theme">\
+
+#### Forest theme example:
+<img src="imageExamples/forestExample.png" width="700" alt="Forest Theme">
+
+#### High Contrast theme example:
+<img src="imageExamples/highContrastExample.png" width="700" alt="High Contrast Theme">
+
+#### Midnight theme example:
+<img src="imageExamples/midnightExample.png" width="700" alt="Midnight Theme">
+
+#### Newspaper theme example:
+<img src="imageExamples/newspaperExample.png" width="700" alt="Newspaper Theme">
+
+#### Nord theme example:
+<img src="imageExamples/nordExample.png" width="700" alt="Nord Theme">
+
+#### Rose theme example:
+<img src="imageExamples/roseExample.png" width="700" alt="Rose Theme">
+
+#### Sepia theme example:
+<img src="imageExamples/sepiaExample.png" width="700" alt="Sepia Theme">
+
+#### Solarized Dark theme example:
+<img src="imageExamples/solarizedDarkExample.png" width="700" alt="Solarized Dark Theme">
+
+#### Solarized Light theme example:
+<img src="imageExamples/solarizedLightExample.png" width="700" alt="Solarized Light Theme">
